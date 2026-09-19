@@ -8,6 +8,7 @@ Depends: mobilesubstrate
 Filename: debs/com.sontung.adguardpro-r2_0.0.1_iphoneos-arm64e.deb
 Size: 933520
 MD5sum: 13f926a1750493abde2b36195a10be40
+SHA1: e69e671aba7bf5acb474d90432fef7ee50f9efd2
 SHA256: 3105f16561b2a83eef62393c5e8521713520ebd4e14ab374a962ef57389b63b6
 Section: Tweaks
 Description: Unlock AdGuard Premium
@@ -20,7 +21,7 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/AdGuard.json
 Package: com.sontung.airaw-r2
 Version: 1.7.0k
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN Repo
 Installed-Size: 12000
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
@@ -28,6 +29,7 @@ Replaces: jp.dcsyhi.airaw
 Filename: debs/com.sontung.airaw-r2_1.7.0k_iphoneos-arm64e.deb
 Size: 8473280
 MD5sum: 3fce4c17c7a35239578477f714ac3701
+SHA1: 5ff79e862b9beccb92417801f0e7115899b4800b
 SHA256: a6a29127cba27b299af6efc8971526400ebe44bcd241deb9f5b8d6771e612ec8
 Section: Tweaks
 Author: Dcsyhi <dcsyhi1998@gmail.com>
@@ -39,7 +41,7 @@ Sileodepiction: https://bvnrepo999.github.io/sileodepictions/Airaw.json
 Package: com.sontung.audiorecorderxs-rootless
 Version: 5.1-12
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 6136
 Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, com.bvn.limneos, firmware(>=15.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
@@ -47,6 +49,7 @@ Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
 Filename: debs/com.sontung.audiorecorderxs-rootless_5.1-12_iphoneos-arm64e.deb
 Size: 1190676
 MD5sum: b37303839faba8da4addd94f9e4c2e70
+SHA1: d204220f300949419fafc2ba71d3d16d6ab778bd
 SHA256: b209da0a65158a59fa1fde26df88580df366372a5a923d35bd0441b869b4be88
 Section: Tweaks
 Description: Most Advanced iOS Call Recorder Ever!
@@ -60,7 +63,7 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/AudioRecorder.json
 Package: com.sontung.biolocker.roothide
 Version: 1.15.0-beta-2
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN REPO
 Installed-Size: 2916
 Pre-Depends: firmware (>=15.0)
 Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.roothide (>= 1.0.16), vn.bvn.iarrayshack
@@ -68,6 +71,7 @@ Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolock
 Filename: debs/com.sontung.biolocker.roothide_1.15.0-beta-2_iphoneos-arm64e.deb
 Size: 663460
 MD5sum: 13a0744a6e55c9be168bba9e99e74d1b
+SHA1: ddee7a0d90ce2ad7a6ac00d485ca3f50007a6c3d
 SHA256: dcbcbc050088c1cc5e4476c0cf38a35a805cb639fdbfa3175fcb54dff454c8bc
 Section: Utilities
 Description: Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh.
@@ -81,7 +85,7 @@ Sponsor: IArrays
 Package: com.sontung.carbridge13-roothide
 Version: 2.0.16k
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: leftyfl1p
 Installed-Size: 7344
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
@@ -89,6 +93,7 @@ Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, co
 Filename: debs/com.sontung.carbridge13-roothide_2.0.16k_iphoneos-arm64e.deb
 Size: 405904
 MD5sum: 860ade2120891116e5c12737fc7d709f
+SHA1: d9838019b0d0423af669f9811172cc051e256cf4
 SHA256: 2035f1344cdb3b92957e929d0b1c9a0affb6a8c8126a2894b5c9a3a4775b46b8
 Section: Tweaks
 Description: Open any app in CarPlay!
@@ -101,7 +106,7 @@ Sileodepiction: https://bvnrepo999.github.io/sileodepictions/CarBridge.json
 Package: com.sontung.carsurf.r2
 Version: 0.2.1
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: pavunato
 Installed-Size: 1552
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -109,6 +114,7 @@ Recommends: com.opa334.libsandy
 Filename: debs/com.sontung.carsurf.r2_0.2.1_iphoneos-arm64e.deb
 Size: 144004
 MD5sum: 33ff3ffa2ae99dc5ea474e9fe804ac5e
+SHA1: 84e2e493c3b9d4f36ee8179efcf1f26e7f8b62ea
 SHA256: 18b7ee3204b2bed521e66dfaeb14876cfde776aa95cbcc87b65c37b9cf9618b2
 Section: Tweaks
 Description: Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline.
@@ -127,6 +133,7 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/com.sontung.cercube.ios_6.1.3_iphoneos-arm64e.deb
 Size: 2007112
 MD5sum: 6dcbc2f4d9e944d778ad02c3d7896bf4
+SHA1: a257e1c101e5dc60f8e3770f97c765b6c7b4311d
 SHA256: 3ff27cd6b8cc7df8a34d1448d5c399f2cea6ca21bc4a052f903213a3547e9212
 Section: Tweaks
 Priority: optional
@@ -140,29 +147,30 @@ Sileodepiction: https://apt.cercube.com/depiction/sileo/FDXO5R
 Package: com.sontung.disablethermalmonitord
 Version: 0.1.0
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: plutil
 Filename: debs/com.sontung.disablethermalmonitord_0.1.0_iphoneos-arm64e-1.deb
 Size: 1216
 MD5sum: 36effde1a1e71964f5a1af966b1e48b9
+SHA1: d18c2daf962f2f3441032e543d4d157b4a2f520b
 SHA256: f9953657a6b073ada69628ba846f20b40ecdf0e115e2111f588bb1a0d4bf311f
 Section: Tweaks
 Description: Vô hiệu hoá "Giảm tần số CPU và giảm độ sáng tự động" do thiết bị quá nóng
 Author: zhaonan
 Name: Disable Thermalmonitord
-Icon: https://hoangcongson.github.io/sontung/icon.png
 
 Package: com.sontung.dockx
 Version: 2.6.2k
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: udevs
 Installed-Size: 2036
 Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
 Conflicts: com.restiveconch.actionbar
 Filename: debs/com.sontung.dockx_2.6.2k_iphoneos-arm64e.deb
 Size: 420868
 MD5sum: 7e5d03cf9708ae1e1cffd310a56f079b
+SHA1: a48be53c7391715a3ada2b0754579edd20f9ce0b
 SHA256: 9576cc5d4ac68e33e2c952afaf0dfcdca13b9654f0838247789ba3cfa3fd5ee6
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
@@ -180,6 +188,7 @@ Depends: firmware (>= 14.0), mobilesubstrate
 Filename: debs/com.sontung.fbpp.r2_1.0.5_iphoneos-arm64e.deb
 Size: 329420
 MD5sum: a19dda47e253ec33ce72f43a445c43de
+SHA1: bf10d98b0bcc63fdc0bd50cedd6e988726d7360c
 SHA256: 004b532d402c483263af4bd110498f92498bbaf945e700f0bc9e02f2b371db15
 Section: Tweaks
 Description: Tinh chỉnh tốt nhất cho ứng dụng Facebook
@@ -198,18 +207,18 @@ Depends: firmware (>= 15.0), mobilesubstrate
 Filename: debs/com.sontung.filzacrack-roothide_1.1-8_iphoneos-arm64e.deb
 Size: 6252
 MD5sum: 0df7ee866678fb4e65e197a28926b741
+SHA1: d164026437d9d44350e3cf08238e360fed1c7d00
 SHA256: a6d0be1c4274ede3aa3e5a6f2d5cf3b9ec92b86356079709bb28bc0f03ef11ac
 Section: Tweaks
 Homepage: https://tigisoftware.com/cydia/
 Description: Crack Tinh chỉnh Filza
 Author: Netskao
 Name: Filza Crack (Roothide)
-Icon: https://hoangcongson.github.io/sontung/icon.png
 
 Package: com.sontung.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
@@ -217,6 +226,7 @@ Replaces: org.altervista.exilecom.icleaner
 Filename: debs/com.sontung.icleanerpro_7.10.0_iphoneos-arm64e.deb
 Size: 1107652
 MD5sum: dbe50a0182c129ec06bb5605514eda44
+SHA1: cb5717b58469f131d701ec67dfbc05613538340e
 SHA256: 1f7a852daea23a490d8388e5bcb49c8d2b994ce98e74779a34a1053f13e22f23
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
@@ -236,6 +246,7 @@ Depends: mobilesubstrate, preferenceloader, com.spark.libsparkapplist, com.mrgcg
 Filename: debs/com.sontung.killapps_1.7.8_iphoneos-arm64e.deb
 Size: 151948
 MD5sum: 665dbd50a3f14dbe6828a79fa5c14652
+SHA1: 43065231554c2509227562ac4e5503a027f4656a
 SHA256: 33b379e19633ae6a28b2a70f5aa0ba27149e4223ec753baa2791b0b82706971c
 Section: Tweaks
 Description: Customize your app switcher with a variety of options, including the ability to close apps with a downswipe, adding buttons, a grid switcher, and many other features.
@@ -254,6 +265,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.sontung.locketpatch-roothide_0.0.2_iphoneos-arm64e.deb
 Size: 27780
 MD5sum: 0121336ba333fc79189661c0ca572416
+SHA1: 26148fe9b96c14b7393c38053a5d6f5d7cda227d
 SHA256: 592b6ae4e43a6366c205c33c429e23ffb440229d5799513c8409ab28d9ab56a1
 Section: Apps Crack
 Description: Locket Widget Unlock
@@ -266,18 +278,18 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/Locket.json
 Package: com.sontung.messnoads
 Version: 3.0
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate
 Filename: debs/com.sontung.messnoads_3.0_iphoneos-arm64e.deb
 Size: 7132
 MD5sum: 5f3e21de32f081632d90d1dad9a2e11c
+SHA1: 9da939a2557ccafef0145c764b0b58731676758f
 SHA256: a6c3e451c94ace669c5bdb5390709afc6c1c04e126bbe83058648220a158c45d
 Section: Tweaks
 Description: Chặn quảng cáo & tắt đã xem tin nhắn  cho Ứng dụng Messenger
 Author: 34306
 Name: Messed (Roothide)
-Icon: https://hoangcongson.github.io/sontung/icon.png
 
 Package: com.sontung.nopreferencetips.r2
 Version: 1.0.4
@@ -289,6 +301,7 @@ Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.5)
 Filename: debs/com.sontung.nopreferencetips.r2_1.0.4_iphoneos-arm64e.deb
 Size: 6388
 MD5sum: a8d570177590eb3cf92d357620734cc5
+SHA1: 4a0f37722bf95e365a064ee3b9faf4a777409c10
 SHA256: f7a10eddb1fe3fc26c8410cf8ef1c5095dc338d62d85d960189f0ba579a0a346
 Section: Tweaks
 Description: Loại bỏ thông báo khi thay pin không chính hãng,hiển thị lại % Pin
@@ -308,6 +321,7 @@ Depends: mobilesubstrate
 Filename: debs/com.sontung.picsartcrack_1.0.1_iphoneos-arm64e.deb
 Size: 73808
 MD5sum: b597f01f08881b7aa91a138d30d503ce
+SHA1: 3a4d88d1db3c15cace421293c3564ee3962afbe3
 SHA256: e22817763adc0502fa7059d3bb4bb33a82fffb45f4547f4e347b0443d8d90acd
 Section: Tweaks
 Description: Unlock Picsart Gold Annual
@@ -320,7 +334,7 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/PicsArt.json
 Package: com.sontung.pullover-roothide
 Version: 2.1.6+Roothide
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: Nets
 Installed-Size: 2440
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
@@ -328,6 +342,7 @@ Conflicts: com.c1d3r.pulloverpro
 Filename: debs/com.sontung.pullover-roothide_2.1.6+Roothide_iphoneos-arm64e.deb
 Size: 701140
 MD5sum: 1f1be40c1327ce840eb190c5056d5ae7
+SHA1: c0f09c01d47fd56fac5db28894b0b341d45b8e8a
 SHA256: 1dccb675e0893dcef8f102207c63ae713af5282728a42d9061749919d4966fd0
 Section: Tweaks
 Description: A better way to multitask! Fix support for iOS15+
@@ -340,13 +355,14 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/PullOver.json
 Package: com.sontung.senri
 Version: 1.1
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: Bvn repo
 Installed-Size: 1740
 Pre-Depends: rootless-compat(>= 0.1)
 Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
 Filename: debs/com.sontung.senri_1.1_iphoneos-arm64e.deb
 Size: 208444
 MD5sum: 4bc6874311817b87254f3e40ad6f8929
+SHA1: 2ef01524bac6a862819b5dcc1cd551d1b478c518
 SHA256: f898128efc5a0b67c54f3f3c40e95a94c2b9c490b6141d464fbbdc651f548d47
 Section: Tweaks
 Description: Không bao giờ mất Thông báo của bạn nữa.
@@ -367,6 +383,7 @@ Conflicts: com.iarrays.simplus.rootless, org.mr.libiarraysrl
 Filename: debs/com.sontung.simplus.roothide_1.15-beta-4_iphoneos-arm64e.deb
 Size: 630456
 MD5sum: 11a6490bd64587c55454fb1564d84ca1
+SHA1: 2e523ecd484d63af5926f93a6c1ee32b6a08e8e0
 SHA256: f1f6e3291e423de58f820468e63e64e1400de19e52755eb3afb83f0a4951b27d
 Section: Utilities
 Description: Cách mà lẽ ra Apple phải làm, nhưng đừng lo lắng. Chúng tôi đã làm điều đó cho bạn. Chọn cách gọi điện hoặc nhắn tin khi sử dụng eSim/iPhone hai sim.
@@ -380,13 +397,14 @@ Sponsor: IArrays
 Package: com.sontung.snapper3-r2
 Version: 1.0k
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
 Filename: debs/com.sontung.snapper3-r2_1.0k_iphoneos-arm64e.deb
 Size: 942644
 MD5sum: b45003558b1b93db37a5588366302ba3
+SHA1: 42821f2b1ecb63b08b163b0164e4a4508f43a0d8
 SHA256: abc63d700c4a6dffdcc288e4feb1ead95067a172290cc1a80fbbab18d0dc8f55
 Section: Tweaks
 Description: Snapper 3 is a toolbox for screenshots on iOS.
@@ -404,6 +422,7 @@ Depends: com.opa334.altlist, preferenceloader
 Filename: debs/com.sontung.speedads2k26.r2_1.2.0k_iphoneos-arm64e.deb
 Size: 64776
 MD5sum: 4d30b9233e7da3782dee192255b0eaca
+SHA1: 43d10cd34d235b966af1b8456f528e4e1b7515af
 SHA256: 492f6eaf42f860cafc4b398d6fbcc2dda84b664adcbe2ecc7041c750b3f02fa1
 Section: Tweaks
 Description: A properly made tweak to speed up any modern ad
@@ -416,12 +435,13 @@ Sileodepiction: https://bvnrepo999.github.io/sileodepictions/SpeedAds2k26.json
 Package: com.sontung.swipelefttoback.rootless
 Version: 1.0-6
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: BVN Repo
 Pre-Depends: rootless-compat(>= 0.9)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
 Filename: debs/com.sontung.swipelefttoback.rootless_1.0-6_iphoneos-arm64e.deb
 Size: 88524
 MD5sum: 427044064c98d6a197c7c9b1f7fad96d
+SHA1: 5b7439349671eb2e0417573bc84d28582e1b1e91
 SHA256: 60878f246304294dc19bbdea17348697f3629674aab1cd99a701337945a79877
 Section: Tweaks
 Priority: optional
@@ -440,6 +460,7 @@ Depends: firmware (>= 12.0), mobilesubstrate
 Filename: debs/com.sontung.tiktok++.r2_1.1.5_iphoneos-arm64e.deb
 Size: 487856
 MD5sum: 76c9856b411d35fe7384a20d45205c0b
+SHA1: 189278cc172eceb452d6f3c93cf0a5cc6f79a3ed
 SHA256: dd0871ece480a1c440d2cf5e903d9f3ab05933af68b5b7a14ebfd4921ec5e2b2
 Section: Tweaks
 Description: Tinh chỉnh tốt nhất cho ứng dụng tiktok
@@ -456,12 +477,12 @@ Installed-Size: 3860
 Filename: debs/com.sontung.trollstorelite_2.1.1-1_iphoneos-arm64e.deb
 Size: 1732164
 MD5sum: a008f6ad5a127e90653fb342d6fef6c1
+SHA1: 4f41d4fdd499ae55878ebe93320c9aea6e498f7a
 SHA256: b1d09cb82b105d484ad11491933b5330bb159bbb6c71d41067f7cedbc478808e
 Section: Applications
 Description: TrollStore for RootHide jailbroken iOS
 Author: opa334
 Name: TrollStore Lite (RootHide)
-Icon: https://hoangcongson.github.io/sontung/icon.png
 
 Package: com.sontung.truecallergold
 Version: 1.0.3
@@ -473,6 +494,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.sontung.truecallergold_1.0.3_iphoneos-arm64e.deb
 Size: 520572
 MD5sum: 5adf3ec61a9484aa1e4dc2f3fc08d632
+SHA1: 0bd2bebbbfb95a2b7a36e0ce4b9331b8d7275f38
 SHA256: deb14687377ceb4e57f57323c182c129d8b0debb79276a0de2d6271224c6c77c
 Section: Apps Crack
 Description: Cracked By Blatant
@@ -491,6 +513,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.sontung.widgy.r2_1.0_iphoneos-arm64e.deb
 Size: 1687392
 MD5sum: b04e8bcef514fc262ec84e06a76e0262
+SHA1: 0e1af51c411b563f34977457cd054e2ed6e55b35
 SHA256: f0840b7b784d4c2496b1b466d78bafed3fd1a74a093c3f7cad7e8b31db1ada3a
 Section: Apps Crack
 Description: Cracked By Blatant
@@ -503,12 +526,13 @@ Sileodepiction: https://bvnsupport.github.io/sileodepictions/Widgy.json
 Package: com.sontung.ytlite-r2
 Version: 5.2.2
 Architecture: iphoneos-arm64e
-Maintainer: SonTung
+Maintainer: dvntm
 Installed-Size: 20356
 Depends: mobilesubstrate
 Filename: debs/com.sontung.ytlite-r2_5.2.2_iphoneos-arm64e.deb
 Size: 7312108
 MD5sum: 6573e9fd26dd9005dc533a3adcae26c3
+SHA1: 223b16ca545b9b339e1f2cf5ea9257a1c4b910db
 SHA256: f69972e64979e5b4ce7375e18da335e04d818f281b8aeb6cdf2b3564e20c9e7f
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
@@ -516,3 +540,4 @@ Author: dvntm
 Icon: https://bvnrepo.xyz/icon/tinhchinh.png
 Name: Youtube Plus (Roothide)
 Sileodepiction: https://bvnrepo999.github.io/sileodepictions/YTLite.json
+
