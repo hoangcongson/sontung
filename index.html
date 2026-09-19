@@ -3,83 +3,247 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f5f7fb">
-<title>SonTung Repo</title>
+<meta name="theme-color" content="#f8c9d8">
+<meta name="description" content="Hoàng Công Sơn — Personal Sileo Repository">
+<title>Hoàng Công Sơn · Sileo Repo</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;background:linear-gradient(180deg,#eef5ff 0,#f8fafc 42%,#fff 100%);color:#172033;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:-40%;background:conic-gradient(from 90deg,#1677ff18,#b84dff18,#00c9a718,#ff4d8d18,#1677ff18);animation:spin 18s linear infinite;z-index:-1}
+:root{
+  --pink:#f5a9bd;--pink2:#ffdce7;--rose:#e9789a;--ink:#40333a;
+  --muted:#7b6870;--white:#fff;--shadow:0 18px 50px rgba(121,70,90,.13)
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;
+  background:#fff7fa;overflow-x:hidden
+}
+body:before{
+  content:"";position:fixed;inset:-50%;z-index:-2;
+  background:conic-gradient(from 90deg,#ffdbe7,#f9c1d3,#fff1f5,#f8d7e3,#ffdbe7);
+  animation:spin 22s linear infinite
+}
+body:after{
+  content:"";position:fixed;inset:0;z-index:-1;
+  background:rgba(255,255,255,.72)
+}
 @keyframes spin{to{transform:rotate(360deg)}}
-.wrap{max-width:980px;margin:auto;padding:28px 18px 50px}
-.hero{text-align:center;padding:38px 20px 28px}
-.logo{width:92px;height:92px;border-radius:24px;object-fit:cover;box-shadow:0 14px 35px #0002;border:4px solid #fff}
-h1{margin:18px 0 7px;font-size:42px;letter-spacing:-1.5px;background:linear-gradient(90deg,#1677ff,#a13cff,#ff3f81,#00bfa6,#1677ff);background-size:300% auto;color:transparent;background-clip:text;-webkit-background-clip:text;animation:gradient 5s linear infinite}
-@keyframes gradient{to{background-position:300% center}}
-.sub{color:#687386;font-size:17px;margin:0 0 24px}
-.buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
-.btn{display:inline-block;text-decoration:none;padding:12px 20px;border-radius:14px;font-weight:700;font-size:15px}
-.primary{background:#1677ff;color:#fff;box-shadow:0 8px 22px #1677ff33}
-.secondary{background:#fff;color:#172033;border:1px solid #dfe5ee}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0 30px}
-.card{background:#fff;border:1px solid #e6eaf0;border-radius:20px;padding:22px;text-align:center;box-shadow:0 8px 28px #18243b0a}
-.num{font-size:28px;font-weight:800}.label{font-size:13px;color:#7b8493;margin-top:4px}
-.section-title{font-size:23px;margin:30px 2px 14px}
+.wrap{max-width:1080px;margin:auto;padding:18px}
+.nav{
+  display:flex;justify-content:space-between;align-items:center;
+  padding:12px 8px;position:sticky;top:0;z-index:20;
+  backdrop-filter:blur(16px);background:#fff8fbcc;border-bottom:1px solid #ffffff99
+}
+.brand{font-weight:900;font-size:18px;display:flex;align-items:center;gap:9px}.brand-icon{width:34px;height:34px;border-radius:10px;object-fit:cover;box-shadow:0 5px 14px #73334b22}
+.navlinks{display:flex;gap:8px}
+.navlinks a{color:var(--ink);text-decoration:none;padding:9px 12px;border-radius:12px;font-size:14px}
+.navlinks a:hover{background:#fff}
+.hero{
+  margin-top:18px;display:grid;grid-template-columns:1.05fr .95fr;
+  gap:30px;align-items:center;padding:44px 34px;border-radius:34px;
+  background:linear-gradient(135deg,#ffe7ef 0%,#f8c2d2 52%,#f3afc5 100%);
+  box-shadow:var(--shadow);overflow:hidden;position:relative
+}
+.hero:before,.hero:after{
+  content:"";position:absolute;border-radius:50%;background:#fff5;
+  animation:float 5s ease-in-out infinite
+}
+.hero:before{width:220px;height:220px;right:-70px;top:-70px}
+.hero:after{width:150px;height:150px;left:-55px;bottom:-60px;animation-delay:-2s}
+@keyframes float{50%{transform:translateY(-12px) scale(1.04)}}
+.hero-icon{width:64px;height:64px;border-radius:18px;object-fit:cover;border:4px solid #ffffffcc;box-shadow:0 10px 25px #73334b20;margin-bottom:8px;animation:iconFloat 4s ease-in-out infinite}@keyframes iconFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.eyebrow{font-weight:800;color:#a94c6c;letter-spacing:1.5px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(42px,7vw,72px);line-height:.98;margin:12px 0;
+  letter-spacing:-3px;background:linear-gradient(90deg,#7e2948,#df5e83,#a63d64,#7e2948);
+  background-size:260% auto;color:transparent;background-clip:text;-webkit-background-clip:text;
+  animation:nameGlow 5.5s ease-in-out infinite}
+@keyframes nameGlow{
+  0%,100%{opacity:.72;transform:translateY(2px);background-position:0% center;text-shadow:0 0 0 transparent}
+  22%{opacity:1;transform:translateY(0);background-position:45% center;text-shadow:0 0 12px #ffffff88}
+  52%{opacity:1;transform:translateY(0);background-position:100% center;text-shadow:0 0 22px #ffffff99}
+  78%{opacity:.86;transform:translateY(0);background-position:155% center;text-shadow:0 0 8px #ffffff55}
+}
+.hero p{font-size:18px;line-height:1.7;color:#654e57;max-width:560px}
+.clock{font-weight:800;color:#9c4665;margin:18px 0}
+.actions{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;
+  padding:13px 18px;border-radius:15px;font-weight:800;border:1px solid #ffffffaa}
+.btn-primary{background:#fff;color:#9b3f60;box-shadow:0 10px 24px #8e3e5d1f}
+.btn-dark{background:#8f3c5b;color:#fff;border-color:#8f3c5b}
+.portrait{
+  width:min(310px,80vw);aspect-ratio:1;border-radius:50%;object-fit:cover;display:block;margin:auto;
+  border:8px solid #fff;position:relative;z-index:2;
+  box-shadow:0 20px 55px #73334b2e,0 0 0 10px #ffffff55,0 0 55px #ff86ad66;
+  animation:portraitFloat 5s ease-in-out infinite
+}
+@keyframes portraitFloat{
+  0%,100%{transform:translateY(10px) scale(.96);box-shadow:0 20px 55px #73334b2e,0 0 0 10px #ffffff55,0 0 35px #ff86ad44}
+  50%{transform:translateY(-8px) scale(1);box-shadow:0 28px 65px #73334b36,0 0 0 16px #ffffff44,0 0 65px #ff86ad88}
+}
+.portrait-wrap{
+  position:relative;width:min(360px,86vw);aspect-ratio:1;margin:auto;
+  display:grid;place-items:center
+}
+.portrait-wrap:before{
+  content:"";position:absolute;width:78%;height:78%;border-radius:50%;
+  background:radial-gradient(circle,#fff9 0 30%,#ff8fb533 55%,transparent 72%);
+  filter:blur(12px);animation:softGlow 5s ease-in-out infinite
+}
+.portrait-wrap:after{
+  content:"";position:absolute;width:88%;height:88%;border-radius:50%;
+  border:1px solid #ffffff99;box-shadow:0 0 35px #ff7fa455;
+  animation:halo 6s ease-in-out infinite
+}
+.portrait{
+  width:min(285px,72vw);aspect-ratio:1;object-fit:cover;display:block;
+  border-radius:42px;border:7px solid #fff;position:relative;z-index:2;
+  box-shadow:0 25px 55px #73334b26;
+  animation:portraitFloat 5s ease-in-out infinite
+}
+@keyframes portraitFloat{
+  0%,100%{transform:translateY(7px);box-shadow:0 20px 45px #73334b22}
+  50%{transform:translateY(-7px);box-shadow:0 30px 60px #73334b30}
+}
+@keyframes softGlow{
+  0%,100%{transform:scale(.88);opacity:.45}
+  50%{transform:scale(1.08);opacity:.85}
+}
+@keyframes halo{
+  0%,100%{transform:scale(.94);opacity:.45}
+  50%{transform:scale(1.04);opacity:.9}
+}
+.section{margin:42px 0}
+.title{text-align:center;font-size:30px;margin:0 0 8px}
+.lead{text-align:center;color:var(--muted);margin:0 auto 22px;max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.card{
+  background:#ffffffd9;border:1px solid #fff;box-shadow:var(--shadow);
+  border-radius:22px;padding:22px;backdrop-filter:blur(10px)
+}
+.card .icon{font-size:28px}
+.card h3{margin:10px 0 6px}.card p{margin:0;color:var(--muted);line-height:1.6}
+.repo{
+  display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center
+}
+.url{
+  background:#fff5f8;border:1px dashed #e7a9bc;border-radius:14px;padding:13px;
+  word-break:break-all;font-family:ui-monospace,monospace;color:#81465b
+}
 .packages{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.pkg{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit;background:#fff;border:1px solid #e6eaf0;border-radius:18px;padding:14px;transition:.15s}
-.pkg:hover{transform:translateY(-2px);box-shadow:0 10px 25px #18243b12}
-.pkg img{width:50px;height:50px;border-radius:13px;object-fit:cover}
-.pkg strong{display:block;font-size:16px}.pkg span{display:block;color:#818a99;font-size:13px;margin-top:4px}
-footer{text-align:center;color:#8a93a1;font-size:13px;margin-top:38px}
-@media(max-width:650px){h1{font-size:34px}.stats{grid-template-columns:1fr 1fr}.stats .card:last-child{grid-column:1/-1}.packages{grid-template-columns:1fr}}
+.pkg{
+  display:flex;align-items:center;gap:13px;text-decoration:none;color:inherit;
+  background:#fff;border:1px solid #f0d9e1;border-radius:18px;padding:13px;
+  transition:.18s
+}
+.pkg:hover{transform:translateY(-3px);box-shadow:0 12px 30px #8c45601a}
+.pkg img{width:52px;height:52px;border-radius:15px;object-fit:cover}
+.pkg strong{display:block}.pkg span{display:block;color:#8b737c;font-size:13px;margin-top:3px}
+.donate{
+  background:linear-gradient(135deg,#fff,#ffe9f0);border:1px solid #f2c4d2;
+  border-radius:28px;padding:28px;box-shadow:var(--shadow)
+}
+.bank{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.bankbox{background:#fff;border-radius:17px;padding:17px}
+.bankbox small{display:block;color:#987b85;margin-bottom:6px}
+.bankbox b{font-size:17px}
+.copy{cursor:pointer;border:0;background:#8f3c5b;color:#fff;padding:9px 12px;border-radius:10px;font-weight:800;margin-top:10px}
+.note{text-align:center;color:#987b85;font-size:13px;margin-top:12px}
+footer{text-align:center;color:#987b85;padding:20px 0 36px}
+@media(max-width:780px){
+  .hero{grid-template-columns:1fr;text-align:center;padding:34px 22px}
+  .hero p{margin-left:auto;margin-right:auto}.actions{justify-content:center}
+  .grid,.bank{grid-template-columns:1fr}.packages{grid-template-columns:1fr}
+  .repo{grid-template-columns:1fr}.navlinks a{display:none}
+}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header class="hero">
-    <img class="logo" src="icon.png" alt="SonTung">
+
+<nav class="nav">
+  <div class="brand"><img src="icon.png" alt="SonTung" class="brand-icon">Hoàng Công Sơn</div>
+  <div class="navlinks">
+    <a href="#repo">Repository</a><a href="#packages">Packages</a><a href="#donate">Donate</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div>
+    <img src="icon.png" alt="Hoàng Công Sơn" class="hero-icon">
+    <div class="eyebrow">Personal Sileo Repository</div>
     <h1>Hoàng Công Sơn</h1>
-    <p class="sub">Personal Sileo Repository · iOS / RootHide</p>
-    <div id="clock" style="font-weight:800;font-size:16px;margin:12px 0 20px;background:linear-gradient(90deg,#1677ff,#b43cff,#ff3b78,#00a98f);background-size:250% auto;color:transparent;background-clip:text;-webkit-background-clip:text;animation:gradient 4s linear infinite"></div>
-    <div class="buttons">
-      <a class="btn primary" href="sileo://source/https://hoangcongson.github.io/sontung/">＋ Thêm vào Sileo</a>
-      <a class="btn secondary" href="https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr" target="_blank">Facebook</a>
+    <p>Chào mừng bạn đến với kho Sileo cá nhân — nơi tổng hợp các tweak, tiện ích và package dành cho iOS / RootHide.</p>
+    <div id="clock" class="clock">Đang tải thời gian…</div>
+    <div class="actions">
+      <a class="btn btn-primary" href="sileo://source/https://hoangcongson.github.io/sontung/">＋ Thêm vào Sileo</a>
+      <a class="btn btn-dark" href="https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr" target="_blank">Facebook</a>
     </div>
-  </header>
+  </div>
+  <div class="portrait-wrap">
+    <img class="portrait" src="icon.png" alt="Hoàng Công Sơn">
+  </div>
+</section>
 
-  <section class="stats">
-    <div class="card"><div class="num">28</div><div class="label">Packages</div></div>
-    <div class="card"><div class="num">ARM64e</div><div class="label">Architecture</div></div>
-    <div class="card"><div class="num">2026</div><div class="label">SonTung Repo</div></div>
-  </section>
+<section class="section">
+  <h2 class="title">Giới thiệu</h2>
+  <p class="lead">Một giao diện riêng cho SonTung Repo, tối ưu trên iPhone, iPad và máy tính.</p>
+  <div class="grid">
+    <div class="card"><div class="icon">📦</div><h3>28 Packages</h3><p>Kho package được quản lý và cập nhật trên GitHub Pages.</p></div>
+    <div class="card"><div class="icon">📱</div><h3>iOS / RootHide</h3><p>Hỗ trợ các package kiến trúc ARM64e trong repo.</p></div>
+    <div class="card"><div class="icon">💬</div><h3>Liên hệ</h3><p>Có thể liên hệ trực tiếp qua Facebook SonTung.</p></div>
+  </div>
+</section>
 
-  <h2 class="section-title">Featured Packages</h2>
+<section class="section" id="repo">
+  <h2 class="title">SonTung Repository</h2>
+  <p class="lead">Sao chép địa chỉ bên dưới hoặc bấm nút để mở trực tiếp bằng Sileo.</p>
+  <div class="card repo">
+    <div class="url">https://hoangcongson.github.io/sontung/</div>
+    <a class="btn btn-primary" href="sileo://source/https://hoangcongson.github.io/sontung/">Mở Sileo</a>
+  </div>
+</section>
+
+<section class="section" id="packages">
+  <h2 class="title">Package nổi bật</h2>
+  <p class="lead">Một số package đang có trong repo.</p>
   <div class="packages">
     <a class="pkg" href="depictions/CarBridge.html"><img src="icon.png"><div><strong>CarBridge VH</strong><span>CarPlay · RootHide</span></div></a>
     <a class="pkg" href="depictions/com.sontung.ytlite-r2.html"><img src="icon.png"><div><strong>YouTube Plus</strong><span>RootHide</span></div></a>
-    <a class="pkg" href="depictions/com.sontung.tiktok++.r2.html"><img src="icon.png"><div><strong>TikTok++</strong><span>RootHide</span></div></a>
-    <a class="pkg" href="depictions/com.sontung.swipelefttoback.rootless.html"><img src="icon.png"><div><strong>Swipe Left To Back</strong><span>RootHide</span></div></a>
+    <a class="pkg" href="depictions/com.sontung.fbpp.r2.html"><img src="icon.png"><div><strong>Facebook++</strong><span>Facebook · RootHide</span></div></a>
+    <a class="pkg" href="depictions/com.sontung.tiktok++.r2.html"><img src="icon.png"><div><strong>TikTok++</strong><span>TikTok · RootHide</span></div></a>
   </div>
+</section>
 
-  <h2 class="section-title">Repository</h2>
-  <div class="card" style="text-align:left">
-    <strong>Source URL</strong>
-    <div style="margin-top:8px;color:#687386;word-break:break-all">https://hoangcongson.github.io/sontung/</div>
+<section class="section" id="donate">
+  <div class="donate">
+    <h2 class="title">☕ Ủng hộ SonTung</h2>
+    <p class="lead">Nếu repo hữu ích với bạn, có thể ủng hộ để mình tiếp tục duy trì và cập nhật.</p>
+    <div class="bank">
+      <div class="bankbox"><small>Ngân hàng</small><b>Techcombank</b></div>
+      <div class="bankbox"><small>Số tài khoản</small><b>1697 8888 8888</b><br><button class="copy" onclick="copyAccount()">Sao chép</button></div>
+      <div class="bankbox"><small>Chủ tài khoản</small><b>Hoàng Công Sơn</b></div>
+    </div>
+    <div id="copied" class="note"></div>
   </div>
-  <footer>© 2026 SonTung · Personal Sileo Repository</footer>
+</section>
+
+<footer>© 2026 Hoàng Công Sơn · SonTung Sileo Repository</footer>
+</div>
+
 <script>
 function updateClock(){
-  const now=new Date();
-  const days=["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
-  const d=String(now.getDate()).padStart(2,"0");
-  const m=String(now.getMonth()+1).padStart(2,"0");
-  const y=now.getFullYear();
-  const h=String(now.getHours()).padStart(2,"0");
-  const min=String(now.getMinutes()).padStart(2,"0");
-  const s=String(now.getSeconds()).padStart(2,"0");
-  document.getElementById("clock").textContent =
-    days[now.getDay()]+" · "+d+"/"+m+"/"+y+" · "+h+":"+min+":"+s;
+  const n=new Date(), days=["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
+  const d=String(n.getDate()).padStart(2,"0"),m=String(n.getMonth()+1).padStart(2,"0"),y=n.getFullYear();
+  const h=String(n.getHours()).padStart(2,"0"),mi=String(n.getMinutes()).padStart(2,"0"),s=String(n.getSeconds()).padStart(2,"0");
+  document.getElementById("clock").textContent=days[n.getDay()]+" · "+d+"/"+m+"/"+y+" · "+h+":"+mi+":"+s;
 }
-updateClock(); setInterval(updateClock,1000);
+function copyAccount(){
+  navigator.clipboard.writeText("169788888888").then(()=>{
+    document.getElementById("copied").textContent="✓ Đã sao chép số tài khoản";
+    setTimeout(()=>document.getElementById("copied").textContent="",2200);
+  });
+}
+updateClock();setInterval(updateClock,1000);
 </script>
-</div>
 </body>
 </html>
