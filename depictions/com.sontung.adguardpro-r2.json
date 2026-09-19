@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "AdGuard Premium (Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Unlock AdGuard Premium**\\n\\nPhiên bản: **0.0.1**\\n\\nPackage: **com.sontung.adguardpro-r2**\\n\\nTác giả: **Dell <dvq273665536@gmail.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

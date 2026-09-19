@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "PullOver Pro VH(Roothide iOS 15/16)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**A better way to multitask! Fix support for iOS15+**\\n\\nPhiên bản: **2.1.6+Roothide**\\n\\nPackage: **com.sontung.pullover-roothide**\\n\\nTác giả: **c1d3r**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

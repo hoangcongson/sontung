@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "NoPreferencesTips (Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Loại bỏ thông báo khi thay pin không chính hãng,hiển thị lại % Pin**\\n\\nPhiên bản: **1.0.4**\\n\\nPackage: **com.sontung.nopreferencetips.r2**\\n\\nTác giả: **苏苏**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "SpeedAds2k26 VH(Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**A properly made tweak to speed up any modern ad**\\n\\nPhiên bản: **1.2.0k**\\n\\nPackage: **com.sontung.speedads2k26.r2**\\n\\nTác giả: **0xkuj**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

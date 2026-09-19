@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Snapper 3 VH(Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Snapper 3 is a toolbox for screenshots on iOS.**\\n\\nPhiên bản: **1.0k**\\n\\nPackage: **com.sontung.snapper3-r2**\\n\\nTác giả: **Jonathan Winger-lang**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

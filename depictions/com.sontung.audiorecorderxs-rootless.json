@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "AudioRecorder VH(Roothide iOS 15 to 17)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Most Advanced iOS Call Recorder Ever!**\\n\\nPhiên bản: **5.1-12**\\n\\nPackage: **com.sontung.audiorecorderxs-rootless**\\n\\nTác giả: **Elias Limneos <limneoselias@gmail.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}

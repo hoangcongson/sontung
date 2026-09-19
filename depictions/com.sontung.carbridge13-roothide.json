@@ -1,0 +1,27 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "CarBridge VH(Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Open any app in CarPlay!**\\n\\nPhiên bản: **2.0.16k**\\n\\nPackage: **com.sontung.carbridge13-roothide**\\n\\nTác giả: **leftyfl1p <carbridge@havoc.app>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ SonTung Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}
