@@ -1,0 +1,37 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://hoangcongson.github.io/sontung/icon.png",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Thông tin",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "CarBridge VH (Roothide)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **SonTung**"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Thể loại",
+          "text": "Tweaks"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tương thích",
+          "text": "iOS 13.0+"
+        },
+        {
+          "class": "DepictionButtonView",
+          "text": "Liên hệ Facebook",
+          "action": "https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr",
+          "openExternal": 1
+        }
+      ]
+    }
+  ]
+}
