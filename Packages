@@ -1,17 +1,19 @@
-Package: com.repobvn.carbridge13-roothide
+Package: com.sontung.carbridge13-roothide
 Name: CarBridge VH(Roothide)
 Description: Open any app in CarPlay!
 Maintainer: SonTung
 Author: SonTung
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Depiction: https://bvnrepo999.github.io/infodeb/Html/CarBridge.html
 SileoDepiction: https://bvnrepo999.github.io/sileodepictions/CarBridge.json
 Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable, com.bvn.carbridge13, com.leftyfl1p.carbridge13, com.tqm-mos.carbridge13
 Architecture: iphoneos-arm64e
 Version: 2.0.16k
 Installed-Size: 7344
-Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.sontung.carbridge13-roothide_2.0.16k_iphoneos-arm64e.deb
+Size: 405904
+SHA256: 2035f1344cdb3b92957e929d0b1c9a0affb6a8c8126a2894b5c9a3a4775b46b8
+Pre-Depends: rootless-compat (>= 0.9)
 Homepage: https://github.com/SonTung
-
