@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh.**\\n\\nPhiên bản: **1.15.0-beta-2**\\n\\nPackage: **com.sontung.biolocker.roothide**\\n\\nTác giả: **IArrays <support@iarrays.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.15.0-beta-2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.biolocker.roothide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "IArrays <support@iarrays.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

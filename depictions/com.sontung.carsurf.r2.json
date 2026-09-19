@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline.**\\n\\nPhiên bản: **0.2.1**\\n\\nPackage: **com.sontung.carsurf.r2**\\n\\nTác giả: **pavunato**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "0.2.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.carsurf.r2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "pavunato"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

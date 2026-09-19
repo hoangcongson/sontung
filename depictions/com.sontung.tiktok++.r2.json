@@ -9,21 +9,21 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "Cercube for YouTube"
+          "title": "TikTok++ (Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supercharge your YouTube app."
+          "markdown": "Tinh chỉnh tốt nhất cho ứng dụng tiktok"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Phiên bản",
-          "text": "6.1.3"
+          "text": "1.1.5"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.cercube.ios"
+          "text": "com.sontung.tiktok++.r2"
         },
         {
           "class": "DepictionTableTextView",
@@ -33,7 +33,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Tác giả",
-          "text": "Cercube"
+          "text": "BVN"
         },
         {
           "class": "DepictionTableTextView",

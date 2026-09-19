@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Unlock AdGuard Premium**\\n\\nPhiên bản: **0.0.1**\\n\\nPackage: **com.sontung.adguardpro-r2**\\n\\nTác giả: **Dell <dvq273665536@gmail.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Unlock AdGuard Premium"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "0.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.adguardpro-r2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Dell <dvq273665536@gmail.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

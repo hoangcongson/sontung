@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Tiện ích quản lý và dọn dẹp hệ thống iOS .Đã Crack sẵn cho AE sử dụng**\\n\\nPhiên bản: **7.10.0**\\n\\nPackage: **com.sontung.icleanerpro**\\n\\nTác giả: **Ivano Bilenchi <support@ib-soft.net>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Tiện ích quản lý và dọn dẹp hệ thống iOS .Đã Crack sẵn cho AE sử dụng"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "7.10.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.icleanerpro"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Ivano Bilenchi <support@ib-soft.net>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

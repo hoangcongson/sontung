@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**A properly made tweak to speed up any modern ad**\\n\\nPhiên bản: **1.2.0k**\\n\\nPackage: **com.sontung.speedads2k26.r2**\\n\\nTác giả: **0xkuj**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "A properly made tweak to speed up any modern ad"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.2.0k"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.speedads2k26.r2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "0xkuj"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

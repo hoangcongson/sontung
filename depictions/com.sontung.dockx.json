@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Pasteboard shortcuts on your keyboard dock!**\\n\\nPhiên bản: **2.6.2k**\\n\\nPackage: **com.sontung.dockx**\\n\\nTác giả: **udevs**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Pasteboard shortcuts on your keyboard dock!"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "2.6.2k"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.dockx"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "udevs"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

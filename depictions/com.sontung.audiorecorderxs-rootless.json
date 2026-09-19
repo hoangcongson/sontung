@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Most Advanced iOS Call Recorder Ever!**\\n\\nPhiên bản: **5.1-12**\\n\\nPackage: **com.sontung.audiorecorderxs-rootless**\\n\\nTác giả: **Elias Limneos <limneoselias@gmail.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Most Advanced iOS Call Recorder Ever!"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "5.1-12"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.audiorecorderxs-rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Elias Limneos <limneoselias@gmail.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

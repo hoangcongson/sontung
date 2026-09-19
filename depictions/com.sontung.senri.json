@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Không bao giờ mất Thông báo của bạn nữa.**\\n\\nPhiên bản: **1.1**\\n\\nPackage: **com.sontung.senri**\\n\\nTác giả: **Antoine <hanzikashi@gmail.com>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Không bao giờ mất Thông báo của bạn nữa."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.senri"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Antoine <hanzikashi@gmail.com>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

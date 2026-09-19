@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**TrollStore for RootHide jailbroken iOS**\\n\\nPhiên bản: **2.1.1-1**\\n\\nPackage: **com.sontung.trollstorelite**\\n\\nTác giả: **opa334**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "TrollStore for RootHide jailbroken iOS"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "2.1.1-1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.trollstorelite"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "opa334"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

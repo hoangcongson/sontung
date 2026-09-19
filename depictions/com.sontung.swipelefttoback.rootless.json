@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Vuốt sang trái để quay lại**\\n\\nPhiên bản: **1.0-6**\\n\\nPackage: **com.sontung.swipelefttoback.rootless**\\n\\nTác giả: **Mao**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Vuốt sang trái để quay lại"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.0-6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.swipelefttoback.rootless"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Mao"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

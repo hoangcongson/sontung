@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\\n\\nPhiên bản: **2.0.16k**\\n\\nPackage: **com.sontung.carbridge13-roothide**\\n\\nTác giả: **leftyfl1p <carbridge@havoc.app>**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Open any app in CarPlay!"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "2.0.16k"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.carbridge13-roothide"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "leftyfl1p <carbridge@havoc.app>"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

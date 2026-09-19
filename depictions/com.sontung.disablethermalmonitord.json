@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Vô hiệu hoá \"Giảm tần số CPU và giảm độ sáng tự động\" do thiết bị quá nóng**\\n\\nPhiên bản: **0.1.0**\\n\\nPackage: **com.sontung.disablethermalmonitord**\\n\\nTác giả: **zhaonan**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Vô hiệu hoá \"Giảm tần số CPU và giảm độ sáng tự động\" do thiết bị quá nóng"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "0.1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.disablethermalmonitord"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "zhaonan"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

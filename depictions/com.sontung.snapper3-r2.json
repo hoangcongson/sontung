@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Snapper 3 is a toolbox for screenshots on iOS.**\\n\\nPhiên bản: **1.0k**\\n\\nPackage: **com.sontung.snapper3-r2**\\n\\nTác giả: **Jonathan Winger-lang**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Snapper 3 is a toolbox for screenshots on iOS."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.0k"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.snapper3-r2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "Jonathan Winger-lang"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Loại bỏ thông báo khi thay pin không chính hãng,hiển thị lại % Pin**\\n\\nPhiên bản: **1.0.4**\\n\\nPackage: **com.sontung.nopreferencetips.r2**\\n\\nTác giả: **苏苏**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Loại bỏ thông báo khi thay pin không chính hãng,hiển thị lại % Pin"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "1.0.4"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.nopreferencetips.r2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "苏苏"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",

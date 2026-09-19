@@ -13,7 +13,32 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Chặn quảng cáo & tắt đã xem tin nhắn  cho Ứng dụng Messenger**\\n\\nPhiên bản: **3.0**\\n\\nPackage: **com.sontung.messnoads**\\n\\nTác giả: **34306**\\n\\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "Chặn quảng cáo & tắt đã xem tin nhắn  cho Ứng dụng Messenger"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Phiên bản",
+          "text": "3.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.sontung.messnoads"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Kiến trúc",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tác giả",
+          "text": "34306"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Duy trì repo",
+          "text": "SonTung"
         },
         {
           "class": "DepictionButtonView",
