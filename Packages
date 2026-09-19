@@ -461,8 +461,8 @@ Description: Tinh chỉnh tốt nhất cho ứng dụng tiktok
 Author: BVN
 Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: TikTok++ (Roothide)
-Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok.r2.html
-SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok.r2.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok++.r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok++.r2.json
 
 Package: com.sontung.trollstorelite
 Version: 2.1.1-1
