@@ -12,10 +12,10 @@ SHA256: 3105f16561b2a83eef62393c5e8521713520ebd4e14ab374a962ef57389b63b6
 Section: Tweaks
 Description: Unlock AdGuard Premium
 Author: Dell <dvq273665536@gmail.com>
-Depiction: http://bvnsupport.github.io/infodeb/Html/AdGuard.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.adguardpro-r2.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: AdGuard Premium (Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/AdGuard.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.adguardpro-r2.json
 
 Package: com.sontung.airaw-r2
 Version: 1.7.0k
@@ -31,10 +31,10 @@ MD5sum: 3fce4c17c7a35239578477f714ac3701
 SHA256: a6a29127cba27b299af6efc8971526400ebe44bcd241deb9f5b8d6771e612ec8
 Section: Tweaks
 Author: Dcsyhi <dcsyhi1998@gmail.com>
-Depiction: https://bvnrepo999.github.io/infodeb/Html/Airaw.html
-Icon: https://bvnrepo999.github.io/icon/tinhchinh.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.airaw-r2.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Airaw VH(Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/Airaw.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.airaw-r2.json
 
 Package: com.sontung.audiorecorderxs-rootless
 Version: 5.1-12
@@ -51,11 +51,11 @@ SHA256: b209da0a65158a59fa1fde26df88580df366372a5a923d35bd0441b869b4be88
 Section: Tweaks
 Description: Most Advanced iOS Call Recorder Ever!
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://bvnsupport.github.io/infodeb/Html/AudioRecorder-rl.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.audiorecorderxs-rootless.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Mainlibmd5: 2bd89895e747af47790b0eb2f6bac296
 Name: AudioRecorder VH(Roothide iOS 15 to 17)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/AudioRecorder.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.audiorecorderxs-rootless.json
 
 Package: com.sontung.biolocker.roothide
 Version: 1.15.0-beta-2
@@ -72,11 +72,11 @@ SHA256: dcbcbc050088c1cc5e4476c0cf38a35a805cb639fdbfa3175fcb54dff454c8bc
 Section: Utilities
 Description: Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh.
 Author: IArrays <support@iarrays.com>
-Depiction: http://bvnsupport.github.io/infodeb/Html/biolocker.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.biolocker.roothide.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Bio Locker VH(Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/biolocker.json
 Sponsor: IArrays
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.biolocker.roothide.json
 
 Package: com.sontung.carbridge13-roothide
 Version: 2.0.16k
@@ -93,10 +93,10 @@ SHA256: 2035f1344cdb3b92957e929d0b1c9a0affb6a8c8126a2894b5c9a3a4775b46b8
 Section: Tweaks
 Description: Open any app in CarPlay!
 Author: leftyfl1p <carbridge@havoc.app>
-Depiction: https://bvnrepo999.github.io/infodeb/Html/CarBridge.html
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.carbridge13-roothide.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: CarBridge VH(Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/CarBridge.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.carbridge13-roothide.json
 
 Package: com.sontung.carsurf.r2
 Version: 0.2.1
@@ -113,9 +113,10 @@ SHA256: 18b7ee3204b2bed521e66dfaeb14876cfde776aa95cbcc87b65c37b9cf9618b2
 Section: Tweaks
 Description: Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline.
 Author: pavunato
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: CarSurf (Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/CarSurf.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.carsurf.r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.carsurf.r2.json
 
 Package: com.sontung.cercube.ios
 Version: 6.1.3
@@ -132,10 +133,10 @@ Section: Tweaks
 Priority: optional
 Description: Supercharge your YouTube app.
 Author: Cercube
-Depiction: https://apt.cercube.com/depiction/FDXO5R
-Icon: https://cdn.cercube.com/assets/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.cercube.ios.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Cercube for YouTube
-Sileodepiction: https://apt.cercube.com/depiction/sileo/FDXO5R
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.cercube.ios.json
 
 Package: com.sontung.disablethermalmonitord
 Version: 0.1.0
@@ -152,6 +153,8 @@ Description: Vô hiệu hoá "Giảm tần số CPU và giảm độ sáng tự 
 Author: zhaonan
 Name: Disable Thermalmonitord
 Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.disablethermalmonitord.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.disablethermalmonitord.json
 
 Package: com.sontung.dockx
 Version: 2.6.2k
@@ -167,9 +170,10 @@ SHA256: 9576cc5d4ac68e33e2c952afaf0dfcdca13b9654f0838247789ba3cfa3fd5ee6
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: DockX VH(Roothide)
-Sileodepiction: https://lclrc.github.io/repo/depictions/native/com.udevs.dockx/depiction.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.dockx.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.dockx.json
 
 Package: com.sontung.fbpp.r2
 Version: 1.0.5
@@ -184,9 +188,10 @@ SHA256: 004b532d402c483263af4bd110498f92498bbaf945e700f0bc9e02f2b371db15
 Section: Tweaks
 Description: Tinh chỉnh tốt nhất cho ứng dụng Facebook
 Author: BVN
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Facebook++ (Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/fb++.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.fbpp.r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.fbpp.r2.json
 
 Package: com.sontung.filzacrack-roothide
 Version: 1.1-8
@@ -205,6 +210,8 @@ Description: Crack Tinh chỉnh Filza
 Author: Netskao
 Name: Filza Crack (Roothide)
 Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.filzacrack-roothide.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.filzacrack-roothide.json
 
 Package: com.sontung.icleanerpro
 Version: 7.10.0
@@ -222,9 +229,10 @@ Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: Tiện ích quản lý và dọn dẹp hệ thống iOS .Đã Crack sẵn cho AE sử dụng
 Author: Ivano Bilenchi <support@ib-soft.net>
-Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
-Icon: file:///Applications/iCleaner.app/Icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.icleanerpro.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: iCleaner Pro (Roothide)
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.icleanerpro.json
 
 Package: com.sontung.killapps
 Version: 1.7.8
@@ -240,9 +248,10 @@ SHA256: 33b379e19633ae6a28b2a70f5aa0ba27149e4223ec753baa2791b0b82706971c
 Section: Tweaks
 Description: Customize your app switcher with a variety of options, including the ability to close apps with a downswipe, adding buttons, a grid switcher, and many other features.
 Author: SOPPPra
-Icon: https://i.postimg.cc/hGzV6VSP/icon.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: killapps
-Sileodepiction: https://sopppra.mooo.com/depictions/com.sop.killapps.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.killapps.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.killapps.json
 
 Package: com.sontung.locketpatch-roothide
 Version: 0.0.2
@@ -258,10 +267,10 @@ SHA256: 592b6ae4e43a6366c205c33c429e23ffb440229d5799513c8409ab28d9ab56a1
 Section: Apps Crack
 Description: Locket Widget Unlock
 Author: Blatant
-Depiction: http://bvnsupport.github.io/infodeb/Html/Locket.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/appcrack.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.locketpatch-roothide.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Locket Gold (Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/Locket.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.locketpatch-roothide.json
 
 Package: com.sontung.messnoads
 Version: 3.0
@@ -278,6 +287,8 @@ Description: Chặn quảng cáo & tắt đã xem tin nhắn  cho Ứng dụng M
 Author: 34306
 Name: Messed (Roothide)
 Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.messnoads.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.messnoads.json
 
 Package: com.sontung.nopreferencetips.r2
 Version: 1.0.4
@@ -293,10 +304,10 @@ SHA256: f7a10eddb1fe3fc26c8410cf8ef1c5095dc338d62d85d960189f0ba579a0a346
 Section: Tweaks
 Description: Loại bỏ thông báo khi thay pin không chính hãng,hiển thị lại % Pin
 Author: 苏苏
-Depiction: http://bvnsupport.github.io/infodeb/Html/NoPreferencesTips.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.nopreferencetips.r2.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: NoPreferencesTips (Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/NoPreferencesTips.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.nopreferencetips.r2.json
 
 Package: com.sontung.picsartcrack
 Version: 1.0.1
@@ -312,10 +323,10 @@ SHA256: e22817763adc0502fa7059d3bb4bb33a82fffb45f4547f4e347b0443d8d90acd
 Section: Tweaks
 Description: Unlock Picsart Gold Annual
 Author: Dell <dvq273665536@gmail.com>
-Depiction: http://bvnsupport.github.io/infodeb/Picsart/?p=info
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.picsartcrack.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: PicsArt® Gold (Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/PicsArt.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.picsartcrack.json
 
 Package: com.sontung.pullover-roothide
 Version: 2.1.6+Roothide
@@ -332,10 +343,10 @@ SHA256: 1dccb675e0893dcef8f102207c63ae713af5282728a42d9061749919d4966fd0
 Section: Tweaks
 Description: A better way to multitask! Fix support for iOS15+
 Author: c1d3r
-Depiction: https://bvnsupport.github.io/depictions/PullOver.html
-Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.pullover-roothide.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: PullOver Pro VH(Roothide iOS 15/16)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/PullOver.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.pullover-roothide.json
 
 Package: com.sontung.senri
 Version: 1.1
@@ -351,10 +362,10 @@ SHA256: f898128efc5a0b67c54f3f3c40e95a94c2b9c490b6141d464fbbdc651f548d47
 Section: Tweaks
 Description: Không bao giờ mất Thông báo của bạn nữa.
 Author: Antoine <hanzikashi@gmail.com>
-Depiction: http://bvnsupport.github.io/infodeb/Html/Senri.html
-Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.senri.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Senri VH(Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/Senri.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.senri.json
 
 Package: com.sontung.simplus.roothide
 Version: 1.15-beta-4
@@ -371,11 +382,11 @@ SHA256: f1f6e3291e423de58f820468e63e64e1400de19e52755eb3afb83f0a4951b27d
 Section: Utilities
 Description: Cách mà lẽ ra Apple phải làm, nhưng đừng lo lắng. Chúng tôi đã làm điều đó cho bạn. Chọn cách gọi điện hoặc nhắn tin khi sử dụng eSim/iPhone hai sim.
 Author: IArrays <support@iarrays.com>
-Depiction: http://bvnsupport.github.io/infodeb/eSim+/?p=info
-Icon: https://iarrays.com/sileo-depiction/simplus/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.simplus.roothide.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: eSim+ VH(RootHide iOS 16 to 15)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/eSim+.json
 Sponsor: IArrays
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.simplus.roothide.json
 
 Package: com.sontung.snapper3-r2
 Version: 1.0k
@@ -391,8 +402,10 @@ SHA256: abc63d700c4a6dffdcc288e4feb1ead95067a172290cc1a80fbbab18d0dc8f55
 Section: Tweaks
 Description: Snapper 3 is a toolbox for screenshots on iOS.
 Author: Jonathan Winger-lang
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/tinhchinhh1.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Snapper 3 VH(Roothide)
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.snapper3-r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.snapper3-r2.json
 
 Package: com.sontung.speedads2k26.r2
 Version: 1.2.0k
@@ -408,10 +421,10 @@ SHA256: 492f6eaf42f860cafc4b398d6fbcc2dda84b664adcbe2ecc7041c750b3f02fa1
 Section: Tweaks
 Description: A properly made tweak to speed up any modern ad
 Author: 0xkuj
-Depiction: https://bvnrepo999.github.io/infodeb/Html/SpeedAds2k26.html
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.speedads2k26.r2.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: SpeedAds2k26 VH(Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/SpeedAds2k26.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.speedads2k26.r2.json
 
 Package: com.sontung.swipelefttoback.rootless
 Version: 1.0-6
@@ -427,8 +440,10 @@ Section: Tweaks
 Priority: optional
 Description: Vuốt sang trái để quay lại
 Author: Mao
-Icon: file:///var/jb/Library/IconRepo/tinhchinhh1.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Swipe Left To Back(Roothide)
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.swipelefttoback.rootless.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.swipelefttoback.rootless.json
 
 Package: com.sontung.tiktok++.r2
 Version: 1.1.5
@@ -444,9 +459,10 @@ SHA256: dd0871ece480a1c440d2cf5e903d9f3ab05933af68b5b7a14ebfd4921ec5e2b2
 Section: Tweaks
 Description: Tinh chỉnh tốt nhất cho ứng dụng tiktok
 Author: BVN
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: TikTok++ (Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/tiktok++.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok.r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.tiktok.r2.json
 
 Package: com.sontung.trollstorelite
 Version: 2.1.1-1
@@ -462,6 +478,8 @@ Description: TrollStore for RootHide jailbroken iOS
 Author: opa334
 Name: TrollStore Lite (RootHide)
 Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.trollstorelite.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.trollstorelite.json
 
 Package: com.sontung.truecallergold
 Version: 1.0.3
@@ -477,10 +495,10 @@ SHA256: deb14687377ceb4e57f57323c182c129d8b0debb79276a0de2d6271224c6c77c
 Section: Apps Crack
 Description: Cracked By Blatant
 Author: blatant
-Depiction: http://bvnsupport.github.io/infodeb/Truecaller/?p=info
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/appcrack.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.truecallergold.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Truecaller Gold (Roothide)
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/Truecaller.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.truecallergold.json
 
 Package: com.sontung.widgy.r2
 Version: 1.0
@@ -495,10 +513,10 @@ SHA256: f0840b7b784d4c2496b1b466d78bafed3fd1a74a093c3f7cad7e8b31db1ada3a
 Section: Apps Crack
 Description: Cracked By Blatant
 Author: blatant
-Depiction: http://bvnsupport.github.io/infodeb/Html/Widgy.html
-Icon: https://bvnsupport.github.io/depictions/sectionIcons/appcrack.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.widgy.r2.html
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Widgy Unlock
-Sileodepiction: https://bvnsupport.github.io/sileodepictions/Widgy.json
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.widgy.r2.json
 
 Package: com.sontung.ytlite-r2
 Version: 5.2.2
@@ -513,6 +531,7 @@ SHA256: f69972e64979e5b4ce7375e18da335e04d818f281b8aeb6cdf2b3564e20c9e7f
 Section: Tweaks
 Description: Lightweight YouTube Enhancer
 Author: dvntm
-Icon: https://bvnrepo.xyz/icon/tinhchinh.png
+Icon: https://hoangcongson.github.io/sontung/icon.png
 Name: Youtube Plus (Roothide)
-Sileodepiction: https://bvnrepo999.github.io/sileodepictions/YTLite.json
+Depiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.ytlite-r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/com.sontung.ytlite-r2.json
