@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f7fb">
+<title>SonTung Repo</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI",sans-serif;background:linear-gradient(180deg,#eef5ff 0,#f8fafc 42%,#fff 100%);color:#172033;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:-40%;background:conic-gradient(from 90deg,#1677ff18,#b84dff18,#00c9a718,#ff4d8d18,#1677ff18);animation:spin 18s linear infinite;z-index:-1}
+@keyframes spin{to{transform:rotate(360deg)}}
+.wrap{max-width:980px;margin:auto;padding:28px 18px 50px}
+.hero{text-align:center;padding:38px 20px 28px}
+.logo{width:92px;height:92px;border-radius:24px;object-fit:cover;box-shadow:0 14px 35px #0002;border:4px solid #fff}
+h1{margin:18px 0 7px;font-size:42px;letter-spacing:-1.5px;background:linear-gradient(90deg,#1677ff,#a13cff,#ff3f81,#00bfa6,#1677ff);background-size:300% auto;color:transparent;background-clip:text;-webkit-background-clip:text;animation:gradient 5s linear infinite}
+@keyframes gradient{to{background-position:300% center}}
+.sub{color:#687386;font-size:17px;margin:0 0 24px}
+.buttons{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;padding:12px 20px;border-radius:14px;font-weight:700;font-size:15px}
+.primary{background:#1677ff;color:#fff;box-shadow:0 8px 22px #1677ff33}
+.secondary{background:#fff;color:#172033;border:1px solid #dfe5ee}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:10px 0 30px}
+.card{background:#fff;border:1px solid #e6eaf0;border-radius:20px;padding:22px;text-align:center;box-shadow:0 8px 28px #18243b0a}
+.num{font-size:28px;font-weight:800}.label{font-size:13px;color:#7b8493;margin-top:4px}
+.section-title{font-size:23px;margin:30px 2px 14px}
+.packages{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.pkg{display:flex;align-items:center;gap:14px;text-decoration:none;color:inherit;background:#fff;border:1px solid #e6eaf0;border-radius:18px;padding:14px;transition:.15s}
+.pkg:hover{transform:translateY(-2px);box-shadow:0 10px 25px #18243b12}
+.pkg img{width:50px;height:50px;border-radius:13px;object-fit:cover}
+.pkg strong{display:block;font-size:16px}.pkg span{display:block;color:#818a99;font-size:13px;margin-top:4px}
+footer{text-align:center;color:#8a93a1;font-size:13px;margin-top:38px}
+@media(max-width:650px){h1{font-size:34px}.stats{grid-template-columns:1fr 1fr}.stats .card:last-child{grid-column:1/-1}.packages{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <img class="logo" src="icon.png" alt="SonTung">
+    <h1>Hoàng Công Sơn</h1>
+    <p class="sub">Personal Sileo Repository · iOS / RootHide</p>
+    <div id="clock" style="font-weight:800;font-size:16px;margin:12px 0 20px;background:linear-gradient(90deg,#1677ff,#b43cff,#ff3b78,#00a98f);background-size:250% auto;color:transparent;background-clip:text;-webkit-background-clip:text;animation:gradient 4s linear infinite"></div>
+    <div class="buttons">
+      <a class="btn primary" href="sileo://source/https://hoangcongson.github.io/sontung/">＋ Thêm vào Sileo</a>
+      <a class="btn secondary" href="https://www.facebook.com/share/1HrnJzWLMx/?mibextid=wwXIfr" target="_blank">Facebook</a>
+    </div>
+  </header>
+
+  <section class="stats">
+    <div class="card"><div class="num">28</div><div class="label">Packages</div></div>
+    <div class="card"><div class="num">ARM64e</div><div class="label">Architecture</div></div>
+    <div class="card"><div class="num">2026</div><div class="label">SonTung Repo</div></div>
+  </section>
+
+  <h2 class="section-title">Featured Packages</h2>
+  <div class="packages">
+    <a class="pkg" href="depictions/CarBridge.html"><img src="icon.png"><div><strong>CarBridge VH</strong><span>CarPlay · RootHide</span></div></a>
+    <a class="pkg" href="depictions/com.sontung.ytlite-r2.html"><img src="icon.png"><div><strong>YouTube Plus</strong><span>RootHide</span></div></a>
+    <a class="pkg" href="depictions/com.sontung.tiktok++.r2.html"><img src="icon.png"><div><strong>TikTok++</strong><span>RootHide</span></div></a>
+    <a class="pkg" href="depictions/com.sontung.swipelefttoback.rootless.html"><img src="icon.png"><div><strong>Swipe Left To Back</strong><span>RootHide</span></div></a>
+  </div>
+
+  <h2 class="section-title">Repository</h2>
+  <div class="card" style="text-align:left">
+    <strong>Source URL</strong>
+    <div style="margin-top:8px;color:#687386;word-break:break-all">https://hoangcongson.github.io/sontung/</div>
+  </div>
+  <footer>© 2026 SonTung · Personal Sileo Repository</footer>
+<script>
+function updateClock(){
+  const now=new Date();
+  const days=["Chủ Nhật","Thứ Hai","Thứ Ba","Thứ Tư","Thứ Năm","Thứ Sáu","Thứ Bảy"];
+  const d=String(now.getDate()).padStart(2,"0");
+  const m=String(now.getMonth()+1).padStart(2,"0");
+  const y=now.getFullYear();
+  const h=String(now.getHours()).padStart(2,"0");
+  const min=String(now.getMinutes()).padStart(2,"0");
+  const s=String(now.getSeconds()).padStart(2,"0");
+  document.getElementById("clock").textContent =
+    days[now.getDay()]+" · "+d+"/"+m+"/"+y+" · "+h+":"+min+":"+s;
+}
+updateClock(); setInterval(updateClock,1000);
+</script>
+</div>
+</body>
+</html>
