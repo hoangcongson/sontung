@@ -1,0 +1,14 @@
+Origin: SonTung
+Label: SonTung Repo
+Suite: stable
+Version: 1.0
+Codename: stable
+Architectures: iphoneos-arm64e
+Components: main
+Description: SonTung personal Sileo repository
+MD5Sum:
+ 586ca66e7337d0996350d1f34e36dc9c 949 Packages
+ 26f46800c993c0db66022537a51496b5 544 Packages.gz
+SHA256:
+ 7f543f4aad3c2afbd452cb9fac3fbb247de0f7909633ab4b2abbdd23d533da75 949 Packages
+ 1b51ded0d5a261a925d89caff65d9b0ef062886d76a6ab449563714e7c112565 544 Packages.gz
