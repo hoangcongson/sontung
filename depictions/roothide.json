@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "Bio Locker VH(Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh.**\n\nPhiên bản: **1.15.0-beta-2**\n\nNhà phát triển: **IArrays <support@iarrays.com>**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.biolocker.roothide"
         },
         {
           "class": "DepictionButtonView",

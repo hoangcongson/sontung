@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "Senri VH(Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Không bao giờ mất Thông báo của bạn nữa.**\n\nPhiên bản: **1.1**\n\nNhà phát triển: **Antoine <hanzikashi@gmail.com>**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.senri"
         },
         {
           "class": "DepictionButtonView",

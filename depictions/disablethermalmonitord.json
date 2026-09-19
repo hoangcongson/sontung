@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "Disable Thermalmonitord"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Vô hiệu hoá \"Giảm tần số CPU và giảm độ sáng tự động\" do thiết bị quá nóng**\n\nPhiên bản: **0.1.0**\n\nNhà phát triển: **zhaonan**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.disablethermalmonitord"
         },
         {
           "class": "DepictionButtonView",

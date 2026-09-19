@@ -1,3 +1,5 @@
-# SonTung Sileo Repository
+# SonTung Repo
 
-Icon: https://hoangcongson.github.io/sontung/icon.png
+Personal Sileo repository.
+
+Source: https://hoangcongson.github.io/sontung/

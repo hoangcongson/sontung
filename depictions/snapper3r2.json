@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "Snapper 3 VH(Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Snapper 3 is a toolbox for screenshots on iOS.**\n\nPhiên bản: **1.0k**\n\nNhà phát triển: **Jonathan Winger-lang**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.snapper3-r2"
         },
         {
           "class": "DepictionButtonView",

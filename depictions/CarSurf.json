@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "CarSurf (Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline.**\n\nPhiên bản: **0.2.1**\n\nNhà phát triển: **pavunato**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.carsurf.r2"
         },
         {
           "class": "DepictionButtonView",

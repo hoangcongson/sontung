@@ -9,16 +9,16 @@
       "views": [
         {
           "class": "DepictionHeaderView",
-          "title": "CarBridge VH(Roothide)"
+          "title": "iCleaner Pro (Roothide)"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Open any app in CarPlay!**\n\nPhiên bản: **2.0.16k**\n\nNhà phát triển: **leftyfl1p <carbridge@havoc.app>**\n\nĐóng gói / duy trì repo: **SonTung**"
+          "markdown": "**Tiện ích quản lý và dọn dẹp hệ thống iOS .Đã Crack sẵn cho AE sử dụng**\n\nPhiên bản: **7.10.0**\n\nNhà phát triển: **Ivano Bilenchi <support@ib-soft.net>**\n\nĐóng gói / duy trì repo: **SonTung**"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Package",
-          "text": "com.sontung.carbridge13-roothide"
+          "text": "com.sontung.icleanerpro"
         },
         {
           "class": "DepictionButtonView",

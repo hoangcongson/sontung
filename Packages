@@ -1,19 +1,245 @@
+Package: com.sontung.swipelefttoback.rootless
+Name: Swipe Left To Back(Roothide)
+Version: 1.0-6
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: Mao
+Description: Vuốt sang trái để quay lại
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.4)
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/rootless.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/rootless.json
+Filename: debs/com.sontung.swipelefttoback.rootless_1.0-6_iphoneos-arm64e.deb
+Size: 88524
+SHA256: 60878f246304294dc19bbdea17348697f3629674aab1cd99a701337945a79877
+
+Package: com.sontung.airaw-r2
+Name: Airaw VH(Roothide)
+Version: 1.7.0k
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Description: 
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), ws.hbang.common,com.opa334.ccsupport
+Pre-Depends: rootless-compat(>= 0.9)
+Replaces: jp.dcsyhi.airaw
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/Airaw.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/Airaw.json
+Filename: debs/com.sontung.airaw-r2_1.7.0k_iphoneos-arm64e.deb
+Size: 8473280
+SHA256: a6a29127cba27b299af6efc8971526400ebe44bcd241deb9f5b8d6771e612ec8
+
+Package: com.sontung.biolocker.roothide
+Name: Bio Locker VH(Roothide)
+Version: 1.15.0-beta-2
+Architecture: iphoneos-arm64e
+Section: Utilities
+Maintainer: SonTung
+Author: IArrays <support@iarrays.com>
+Description: Khoá ứng dụng đơn giản, nhẹ và trang nhã cho ứng dụng của bạn. Bảo vệ ứng dụng của bạn bằng Face ID hoặc Touch ID hoặc mật mã tùy chỉnh.
+Depends: mobilesubstrate, preferenceloader, com.iarrays.libiarrays.roothide (>= 1.0.16), vn.bvn.iarrayshack
+Pre-Depends: firmware (>=15.0)
+Conflicts: com.rpetrich.biolockdown, net.limneos.bioprotect, com.iarrays.biolocker.rootless
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/roothide.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/roothide.json
+Filename: debs/com.sontung.biolocker.roothide_1.15.0-beta-2_iphoneos-arm64e.deb
+Size: 663460
+SHA256: dcbcbc050088c1cc5e4476c0cf38a35a805cb639fdbfa3175fcb54dff454c8bc
+
+Package: com.sontung.carsurf.r2
+Name: CarSurf (Roothide)
+Version: 0.2.1
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: pavunato
+Description: Run any app on your CarPlay display. A CarBridge-equivalent tweak rebuilt for the modern (iOS 15-18) CarPlay pipeline.
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Pre-Depends: rootless-compat(>= 0.9)
+Recommends: com.opa334.libsandy
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/CarSurf.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/CarSurf.json
+Filename: debs/com.sontung.carsurf.r2_0.2.1_iphoneos-arm64e.deb
+Size: 144004
+SHA256: 18b7ee3204b2bed521e66dfaeb14876cfde776aa95cbcc87b65c37b9cf9618b2
+
+Package: com.sontung.messnoads
+Name: Messed (Roothide)
+Version: 3.0
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: 34306
+Description: Chặn quảng cáo & tắt đã xem tin nhắn  cho Ứng dụng Messenger
+Depends: mobilesubstrate
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/messnoads.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/messnoads.json
+Filename: debs/com.sontung.messnoads_3.0_iphoneos-arm64e.deb
+Size: 7132
+SHA256: a6c3e451c94ace669c5bdb5390709afc6c1c04e126bbe83058648220a158c45d
+
+Package: com.sontung.senri
+Name: Senri VH(Roothide)
+Version: 1.1
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: Antoine <hanzikashi@gmail.com>
+Description: Không bao giờ mất Thông báo của bạn nữa.
+Depends: firmware (>= 14.0), preferenceloader, ws.hbang.common (>= 1.17), mobilesubstrate
+Pre-Depends: rootless-compat(>= 0.1)
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/senri.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/senri.json
+Filename: debs/com.sontung.senri_1.1_iphoneos-arm64e.deb
+Size: 208444
+SHA256: f898128efc5a0b67c54f3f3c40e95a94c2b9c490b6141d464fbbdc651f548d47
+
+Package: com.sontung.snapper3-r2
+Name: Snapper 3 VH(Roothide)
+Version: 1.0k
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: Jonathan Winger-lang
+Description: Snapper 3 is a toolbox for screenshots on iOS.
+Depends: mobilesubstrate, firmware(>=15.0), preferenceloader
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33, xyz.cypwn.snapper3
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/snapper3r2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/snapper3r2.json
+Filename: debs/com.sontung.snapper3-r2_1.0k_iphoneos-arm64e.deb
+Size: 942644
+SHA256: abc63d700c4a6dffdcc288e4feb1ead95067a172290cc1a80fbbab18d0dc8f55
+
+Package: com.sontung.ytlite-r2
+Name: Youtube Plus (Roothide)
+Version: 5.2.2
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: dvntm
+Description: Lightweight YouTube Enhancer
+Depends: mobilesubstrate
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/ytliter2.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/ytliter2.json
+Filename: debs/com.sontung.ytlite-r2_5.2.2_iphoneos-arm64e.deb
+Size: 7312108
+SHA256: f69972e64979e5b4ce7375e18da335e04d818f281b8aeb6cdf2b3564e20c9e7f
+
+Package: com.sontung.icleanerpro
+Name: iCleaner Pro (Roothide)
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Section: Utilities
+Maintainer: SonTung
+Author: Ivano Bilenchi <support@ib-soft.net>
+Description: Tiện ích quản lý và dọn dẹp hệ thống iOS .Đã Crack sẵn cho AE sử dụng
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Pre-Depends: rootless-compat(>= 0.1)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/icleanerpro.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/icleanerpro.json
+Filename: debs/com.sontung.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 1107652
+SHA256: 1f7a852daea23a490d8388e5bcb49c8d2b994ce98e74779a34a1053f13e22f23
+
+Package: com.sontung.pullover-roothide
+Name: PullOver Pro VH(Roothide iOS 15/16)
+Version: 2.1.6+Roothide
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: c1d3r
+Description: A better way to multitask! Fix support for iOS15+
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Pre-Depends: rootless-compat(>= 0.1)
+Conflicts: com.c1d3r.pulloverpro
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/pulloverroothide.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/pulloverroothide.json
+Filename: debs/com.sontung.pullover-roothide_2.1.6+Roothide_iphoneos-arm64e.deb
+Size: 701140
+SHA256: 1dccb675e0893dcef8f102207c63ae713af5282728a42d9061749919d4966fd0
+
+Package: com.sontung.audiorecorderxs-rootless
+Name: AudioRecorder VH(Roothide iOS 15 to 17)
+Version: 5.1-12
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: Elias Limneos <limneoselias@gmail.com>
+Description: Most Advanced iOS Call Recorder Ever!
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions-roothide, com.bvn.limneos, firmware(>=15.0)
+Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/audiorecorderxsrootless.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/audiorecorderxsrootless.json
+Filename: debs/com.sontung.audiorecorderxs-rootless_5.1-12_iphoneos-arm64e.deb
+Size: 1190676
+SHA256: b209da0a65158a59fa1fde26df88580df366372a5a923d35bd0441b869b4be88
+
 Package: com.sontung.carbridge13-roothide
 Name: CarBridge VH(Roothide)
-Description: Open any app in CarPlay!
-Maintainer: SonTung
-Author: SonTung
+Version: 2.0.16k
+Architecture: iphoneos-arm64e
 Section: Tweaks
+Maintainer: SonTung
+Author: leftyfl1p <carbridge@havoc.app>
+Description: Open any app in CarPlay!
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), preferenceloader, com.opa334.altlist (>= 1.0.10)
+Pre-Depends: rootless-compat(>= 0.9)
+Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable, com.bvn.carbridge13, com.leftyfl1p.carbridge13, com.tqm-mos.carbridge13
 Icon: https://hoangcongson.github.io/sontung/icon.png
 Depiction: https://hoangcongson.github.io/sontung/depictions/CarBridge.html
 SileoDepiction: https://hoangcongson.github.io/sontung/depictions/CarBridge.json
-Conflicts: com.leftyfl1p.carplay, com.eason.carplay, com.eason.carplay.ios11, com.cortex.carplayenable, com.bvn.carbridge13, com.leftyfl1p.carbridge13, com.tqm-mos.carbridge13
-Architecture: iphoneos-arm64e
-Version: 2.0.16k
-Installed-Size: 7344
 Filename: debs/com.sontung.carbridge13-roothide_2.0.16k_iphoneos-arm64e.deb
 Size: 405904
 SHA256: 2035f1344cdb3b92957e929d0b1c9a0affb6a8c8126a2894b5c9a3a4775b46b8
-Pre-Depends: rootless-compat (>= 0.9)
-Homepage: https://github.com/SonTung
+
+Package: com.sontung.dockx
+Name: DockX VH(Roothide)
+Version: 2.6.2k
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: udevs
+Description: Pasteboard shortcuts on your keyboard dock!
+Depends: mobilesubstrate, preferenceloader, firmware(>=14.0)
+Conflicts: com.restiveconch.actionbar
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/dockx.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/dockx.json
+Filename: debs/com.sontung.dockx_2.6.2k_iphoneos-arm64e.deb
+Size: 420868
+SHA256: 9576cc5d4ac68e33e2c952afaf0dfcdca13b9654f0838247789ba3cfa3fd5ee6
+
+Package: com.sontung.disablethermalmonitord
+Name: Disable Thermalmonitord
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Section: Tweaks
+Maintainer: SonTung
+Author: zhaonan
+Description: Vô hiệu hoá "Giảm tần số CPU và giảm độ sáng tự động" do thiết bị quá nóng
+Depends: plutil
+Pre-Depends: rootless-compat(>= 0.9)
+Icon: https://hoangcongson.github.io/sontung/icon.png
+Depiction: https://hoangcongson.github.io/sontung/depictions/disablethermalmonitord.html
+SileoDepiction: https://hoangcongson.github.io/sontung/depictions/disablethermalmonitord.json
+Filename: debs/com.sontung.disablethermalmonitord_0.1.0_iphoneos-arm64e-1.deb
+Size: 1216
+SHA256: f9953657a6b073ada69628ba846f20b40ecdf0e115e2111f588bb1a0d4bf311f
